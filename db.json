@@ -1,0 +1,87 @@
+{
+    "houses1": [
+        {
+            "id": 1,
+            "name": "Departamento 1",
+            "region": "Norte",
+            "price": "1500"
+        },
+        {
+            "id": 2,
+            "name": "Departamento 2",
+            "region": "Patagonia",
+            "price": "1800"
+        },
+        {
+            "id": 3,
+            "name": "Departamento 3",
+            "region": "Miami",
+            "price":"1200"
+        }
+    ],
+    "description": [
+        {
+            "id": "5a",
+            "description":"Departamento muy copado",
+            "imageUrl": "https://images.adsttc.com/media/images/622b/9c0b/6a2b/af01/6506/d38b/newsletter/004-ok.jpg?1647025197",
+            "houseId": 1
+        },
+        {
+            "id": "6a",
+            "description":"Departamento clásico",
+            "imageUrl": "https://i.blogs.es/c68014/casa-3d/840_560.jpeg",
+            "houseId": 2
+        },
+        {
+          "id": "7a",
+          "description":"Departamento con pileta",
+          "imageUrl": "https://arqa.com/wp-content/uploads/2022/06/fr_stp_lepine_ext_002_002_al_hr-530x353.jpg",
+          "houseId": 3
+      }
+
+    ],
+    "houses": [
+        {
+          "id": 1,
+            "name": "Departamento 1",
+            "region": "Norte",
+            "price": "1500",
+          "description": 
+            {
+              "id": "5a",
+              "description":"Departamento muy copado",
+              "imageUrl": "https://images.adsttc.com/media/images/622b/9c0b/6a2b/af01/6506/d38b/newsletter/004-ok.jpg?1647025197",
+              "houseId": 1
+            }
+           
+        },
+        {
+          "id": 2,
+          "name": "Departamento 2",
+          "region": "Patagonia",
+          "price": "1800",
+          "description":
+            {
+              "id": "6a",
+              "description":"Departamento clásico",
+              "imageUrl": "https://i.blogs.es/c68014/casa-3d/840_560.jpeg",
+              "houseId": 2
+            }
+                    
+        },
+        {
+          "id": 3,
+            "name": "Departamento 3",
+            "region": "Miami",
+            "price":"1200",
+            "description":
+              {
+                "id": "7a",
+                "description":"Departamento con pileta",
+                "imageUrl": "https://arqa.com/wp-content/uploads/2022/06/fr_stp_lepine_ext_002_002_al_hr-530x353.jpg",
+                "houseId": 3
+              }            
+            
+        }
+      ]
+}
